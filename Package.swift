@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
   name: "KokoroSwift",
   platforms: [
-    .iOS(.v18), .macOS(.v15)
+    .iOS(.v15), .macOS(.v15)
   ],
   products: [
     .library(
@@ -16,7 +16,7 @@ let package = Package(
     ),
   ],
   dependencies: [
-    .package(url: "https://github.com/ml-explore/mlx-swift", from: "0.30.6"),
+    .package(url: "https://github.com/ml-explore/mlx-swift", from: "0.30.2"),
     // .package(url: "https://github.com/mlalma/eSpeakNGSwift", from: "1.0.1"),
     .package(url: "https://github.com/mlalma/MisakiSwift", from: "1.0.6"),
     .package(url: "https://github.com/mlalma/MLXUtilsLibrary.git", from: "0.0.6")
